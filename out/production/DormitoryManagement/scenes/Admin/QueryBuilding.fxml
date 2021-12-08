@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="cpw" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #83cbac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.admin.QueryBuilding">
+    <children>
+        <AnchorPane maxHeight="10000.0" maxWidth="10000.0" minHeight="0.0" minWidth="0.0" prefHeight="463.0" prefWidth="600.0">
+            <children>
+                <TableView fx:id="sTable" layoutY="55.0" prefHeight="408.0" prefWidth="600.0">
+                    <columns>
+                        <TableColumn fx:id="Bid" minWidth="0.0" prefWidth="178.0" text="楼号" />
+                        <TableColumn fx:id="Capacity" prefWidth="218.0" text="容纳量" />
+                        <TableColumn fx:id="Available" prefWidth="203.0" text="空闲数量" />
+                    </columns>
+                </TableView>
+            <ImageView fitHeight="60.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../images/admin.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="50.0" layoutY="3.0" style="-fx-font-weight: 600;" text="楼宇信息" textFill="WHITE">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="496.0" layoutY="14.0" onAction="#selectBuilding" mnemonicParsing="false" text="查询结果" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,489 @@
+drop table if exists Buliding;
+
+drop table if exists ChangeRoomApp;
+
+drop table if exists Class;
+
+drop table if exists ElecPayment;
+
+drop table if exists ElecPrice;
+
+drop table if exists LeaveApp;
+
+drop table if exists Major;
+
+drop table if exists Manager;
+
+drop table if exists MoveInApp;
+
+drop table if exists MoveOutApp;
+
+drop table if exists Room;
+
+drop table if exists RoomPayment;
+
+drop table if exists RoomPrice;
+
+drop table if exists Student;
+
+drop table if exists WaterPayment;
+
+drop table if exists WaterPrice;
+
+drop table if exists degree;
+
+/*==============================================================*/
+/* Table: Buliding                                              */
+/*==============================================================*/
+create table Buliding
+(
+   bID                  char(4) not null comment '宿舍楼号',
+   bCapacity            int not null comment '宿舍楼拥有的总房间数量',
+   bAvaliable           int not null comment '该宿舍楼剩余有空床位的房间数量',
+   primary key (bID)
+);
+
+alter table Buliding comment '宿舍楼表';
+
+/*==============================================================*/
+/* Table: ChangeRoomApp                                         */
+/*==============================================================*/
+create table ChangeRoomApp
+(
+   crID                 char(16) not null comment '换寝申请单号
+            change room (application) ID',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bIDout               char(4) not null comment '宿舍楼号',
+   rIDout               char(4) not null comment '房间号',
+   bIDtar               char(4) not null comment '宿舍楼号',
+   rIDtar               char(4) not null comment '房间号',
+   appDate              date not null comment '申请建立时间',
+   reason               char(64) comment '申请理由',
+   mID                  char(16) not null comment '管理员ID 
+            也作管理员登录账号',
+   pass                 bool comment '是否通过标识符
+            当刚建立申请，还未审批时，该标识符留空
+            审批不通过，标识置flase
+            审批通过，标识置true
+            不论通过与否，申请记录不删除',
+   passDate             date comment '审批决定的日期
+            即决定通过/不通过的日期，刚建立申请时留空，决定审批结果时更新',
+   primary key (crID)
+);
+
+alter table ChangeRoomApp comment '换寝申请表';
+
+/*==============================================================*/
+/* Table: Class                                                 */
+/*==============================================================*/
+create table Class
+(
+   dID                  int not null comment '学位序号',
+   majID                char(16) not null comment '专业号',
+   grade                int not null comment '年级
+            参照本校制度以入学年份划分，换句话说此项存的就是入学年份2019这些数，故为整形',
+   class                int not null comment '班级号',
+   mID                  char(16) comment '管理员ID 
+            也作管理员登录账号',
+   primary key (dID, majID, grade, class)
+);
+
+alter table Class comment '班级表';
+
+/*==============================================================*/
+/* Table: ElecPayment                                           */
+/*==============================================================*/
+create table ElecPayment
+(
+   epayID               char(16) not null comment '电费单号',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   "usage"              float not null comment '当月用电量',
+   grade                int not null comment '电费价位等级',
+   cost                 float not null comment '当月用电量对应电费消费',
+   balance              float not null comment '当月月初余额
+            ',
+   setDate              date not null comment '欠费记录结算日期',
+   payment              float comment '实付电费金额
+            付款前留空',
+   payDate              date comment '实际付款日期
+            付款前留空',
+   primary key (epayID)
+);
+
+alter table ElecPayment comment '电费欠费缴费记录表
+每月按照用量计算消费，缴费可溢出，如果余额不足则在此表中产生欠费记录，并通知对应寝室同学';
+
+/*==============================================================*/
+/* Table: ElecPrice                                             */
+/*==============================================================*/
+create table ElecPrice
+(
+   grade                int not null comment '电费价位等级',
+   min                  float not null comment '该等级最低用电量',
+   max                  float not null comment '该等级最高用电量',
+   price                float not null comment '该等级电费单价',
+   primary key (grade)
+);
+
+alter table ElecPrice comment '电费阶梯价位表';
+
+/*==============================================================*/
+/* Table: LeaveApp                                              */
+/*==============================================================*/
+create table LeaveApp
+(
+   leaID                char(16) not null comment '请假申请单号
+            leave (application) ID',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   appDate              date not null comment '申请建立日期',
+   leaDate              date not null comment '预计离寝日期
+            leave Date',
+   expRetDate           date not null comment '预计回寝日期
+            expecting Return Date',
+   reason               char(64) comment '申请理由',
+   mID                  char(16) not null comment '管理员ID 
+            也作管理员登录账号',
+   pass                 bool comment '是否通过标识符
+            当刚建立申请，还未审批时，该标识符留空
+            审批不通过，标识置flase
+            审批通过，标识置true
+            不论通过与否，申请记录不删除',
+   passDate             date comment '审批决定的日期
+            即决定通过/不通过的日期，刚建立申请时留空，决定审批结果时更新',
+   actRetDate           date comment '实际回寝日期
+            actual Return Date
+            审批通过的前提下，实际回寝时更新此项，否则留空',
+   primary key (leaID)
+);
+
+alter table LeaveApp comment '请假申请表';
+
+/*==============================================================*/
+/* Table: Major                                                 */
+/*==============================================================*/
+create table Major
+(
+   dID                  int not null comment '学位序号',
+   majID                char(16) not null comment '专业号',
+   title                varchar(32) not null comment '专业名',
+   primary key (dID, majID)
+);
+
+alter table Major comment '专业表';
+
+/*==============================================================*/
+/* Table: Manager                                               */
+/*==============================================================*/
+create table Manager
+(
+   mID                  char(16) not null comment '管理员ID 
+            也作管理员登录账号',
+   mName                char(32) not null comment '管理员姓名',
+   mPhone               char(16) comment '管理员电话',
+   password             varchar(32) not null comment '管理员登录密码',
+   primary key (mID)
+);
+
+alter table Manager comment '管理员表
+参照本校教务老师分配制度，按照班级分配管理员，即若干个班级由一个管理员负责。
+并非所有';
+
+/*==============================================================*/
+/* Table: MoveInApp                                             */
+/*==============================================================*/
+create table MoveInApp
+(
+   miID                 char(16) not null comment '入住申请单号
+            move in (application) ID',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   appDate              date not null comment '申请日期',
+   reason               char(64) comment '申请理由',
+   mID                  char(16) not null comment '管理员ID 
+            也作管理员登录账号',
+   pass                 bool comment '是否通过标识符
+            当刚建立申请，还未审批时，该标识符留空
+            审批不通过，标识置flase
+            审批通过，标识置true
+            不论通过与否，申请记录不删除',
+   passDate             date comment '审批决定的日期
+            即决定通过/不通过的日期，刚建立申请时留空，决定审批结果时更新',
+   primary key (miID)
+);
+
+alter table MoveInApp comment '入住申请表';
+
+/*==============================================================*/
+/* Table: MoveOutApp                                            */
+/*==============================================================*/
+create table MoveOutApp
+(
+   moID                 char(16) not null comment '退宿申请单号
+            move out (application) ID',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   appDate              date not null comment '申请日期',
+   reason               char(64) comment '申请理由',
+   mID                  char(16) not null comment '管理员ID 
+            也作管理员登录账号',
+   pass                 bool comment '是否通过标识符
+            当刚建立申请，还未审批时，该标识符留空
+            审批不通过，标识置flase
+            审批通过，标识置true
+            不论通过与否，申请记录不删除',
+   passDate             date comment '审批决定的日期
+            即决定通过/不通过的日期，刚建立申请时留空，决定审批结果时更新
+            ',
+   primary key (moID)
+);
+
+alter table MoveOutApp comment '退宿申请表';
+
+/*==============================================================*/
+/* Table: Room                                                  */
+/*==============================================================*/
+create table Room
+(
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   elecUsage            float comment '月用电量
+            月初清零，无论是否缴费。',
+   elecBalance          float comment '电费余额
+            月末结算电费时更新，月初缴费时更新，用于以月份为单位记录所欠电费或者缴费盈余',
+   elecAvailable        bool default true comment '断电状态标识
+            true不断电，false断电，如果月末结算电费欠费，月初若干日后仍未缴费，则更新此项为false，阻止该宿舍用电相关函数继续提高用电量elecUsage，即给该宿舍断电',
+   waterUsage           float comment '月用水量
+            月初清零，无论是否缴费。',
+   waterBalance         float comment '水费余额
+            月末结算水费时更新，月初缴费时更新，用于以月份为单位记录所欠水费或者缴费盈余',
+   waterAvailable       bool default true comment '停水状态标识
+            true不停水，false停水，如果月末结算水费欠费，月初若干日后仍未缴费，则更新此项为false，阻止该宿舍用水相关函数继续提高用水量waterUsage，即给该宿舍停水',
+   rCapacity            int not null comment '寝室规格
+            记录该寝室是几人寝',
+   rAvaliable           int not null comment '房间内剩余床位数量',
+   description          varchar(128) comment '寝室描述
+            方便床位未满的寝室找新室友',
+   primary key (bID, rID)
+);
+
+alter table Room comment '寝室房间表';
+
+/*==============================================================*/
+/* Table: RoomPayment                                           */
+/*==============================================================*/
+create table RoomPayment
+(
+   rpID                 char(16) not null comment '住宿费缴费单号',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   setDate              date not null comment '欠费记录产生日期',
+   rCapacity            int not null comment '寝室规格
+            记录该寝室是几人寝',
+   amount               float not null comment '需付金额',
+   payDate              date comment '实际缴费日期
+            完成缴费前留空，缴费时更新',
+   primary key (rpID)
+);
+
+alter table RoomPayment comment '住宿费欠费缴费表
+住宿费缴费不可溢出，只能需付多少付多少，故记录中只记录一个需付金额而没有记录实付金额';
+
+/*==============================================================*/
+/* Table: RoomPrice                                             */
+/*==============================================================*/
+create table RoomPrice
+(
+   rCapacity            int not null comment '寝室规格
+            记录该寝室是几人寝',
+   price                int not null comment '寝室价格',
+   primary key (rCapacity)
+);
+
+alter table RoomPrice comment '寝室价位表';
+
+/*==============================================================*/
+/* Table: Student                                               */
+/*==============================================================*/
+create table Student
+(
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   sName                char(32) not null comment '学生名',
+   sPhone               char(16) comment '学生电话',
+   password             varchar(32) not null comment '学生登陆密码',
+   dID                  int comment '学位序号',
+   majID                char(16) comment '专业号',
+   grade                int comment '年级
+            参照本校制度以入学年份划分，换句话说此项存的就是入学年份2019这些数，故为整形',
+   class                int comment '班级号',
+   bID                  char(4) comment '宿舍楼号',
+   rID                  char(4) comment '房间号',
+   primary key (sID)
+);
+
+alter table Student comment '学生表';
+
+/*==============================================================*/
+/* Table: WaterPayment                                          */
+/*==============================================================*/
+create table WaterPayment
+(
+   wpID                 char(16) not null comment '水费单号',
+   sID                  char(16) not null comment '学生号
+            每个学生的唯一标识，也作登陆账号',
+   bID                  char(4) not null comment '宿舍楼号',
+   rID                  char(4) not null comment '房间号',
+   "usage"              float not null comment '当月用水量',
+   grade                int not null comment '水费价位等级',
+   cost                 float not null comment '当月用水量对应水费消费',
+   balance              float not null comment '月初水费余额',
+   setDate              date not null comment '欠费记录产生日期',
+   payment              float comment '实付水费金额
+            完成缴费前留空，缴费时更新',
+   payDate              float comment '实际缴费日期
+            完成缴费前留空，缴费时更新',
+   primary key (wpID)
+);
+
+alter table WaterPayment comment '水费欠费缴费记录表
+每月按照用量计算消费，缴费可溢出，如果余额不足则在此表中产生欠费记录，并通知对应寝室同学';
+
+/*==============================================================*/
+/* Table: WaterPrice                                            */
+/*==============================================================*/
+create table WaterPrice
+(
+   grade                int not null comment '水费价位等级',
+   min                  float not null comment '该等级最低用水量',
+   max                  float not null comment '该等级最高用水量',
+   price                float not null comment '该等级水费单价',
+   primary key (grade)
+);
+
+alter table WaterPrice comment '水费阶梯价位表';
+
+/*==============================================================*/
+/* Table: degree                                                */
+/*==============================================================*/
+create table degree
+(
+   dID                  int not null comment '学位序号',
+   dName                char(32) not null comment '学位名',
+   roomTpye1            int comment '寝室规格
+            记录该寝室是几人寝',
+   roomTpye2            int comment '寝室规格
+            记录该寝室是几人寝',
+   roomTpye3            int comment '寝室规格
+            记录该寝室是几人寝',
+   primary key (dID)
+);
+
+alter table degree comment '学位表
+存储学名名称和对应序号，例如
+1  本科生
+2  研究生
+3  ';
+
+alter table ChangeRoomApp add constraint FK_ApplyChangeRoom foreign key (sID)
+      references Student (sID);
+
+alter table ChangeRoomApp add constraint FK_ChangeFrom foreign key (bIDtar, rIDtar)
+      references Room (bID, rID);
+
+alter table ChangeRoomApp add constraint FK_ChangeTo foreign key (bIDout, rIDout)
+      references Room (bID, rID);
+
+alter table ChangeRoomApp add constraint FK_PassChangeRoomApp foreign key (mID)
+      references Manager (mID);
+
+alter table Class add constraint FK_Manage foreign key (mID)
+      references Manager (mID);
+
+alter table Class add constraint FK_Under foreign key (dID, majID)
+      references Major (dID, majID);
+
+alter table ElecPayment add constraint FK_ElecPayApplyTo foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table ElecPayment add constraint FK_ElecPayReference foreign key (grade)
+      references ElecPrice (grade);
+
+alter table ElecPayment add constraint FK_PayElec foreign key (sID)
+      references Student (sID);
+
+alter table LeaveApp add constraint FK_ApplyLeave foreign key (sID)
+      references Student (sID);
+
+alter table LeaveApp add constraint FK_PassLeaveApp foreign key (mID)
+      references Manager (mID);
+
+alter table Major add constraint FK_Learn foreign key (dID)
+      references degree (dID);
+
+alter table MoveInApp add constraint FK_ApplyMoveIn foreign key (sID)
+      references Student (sID);
+
+alter table MoveInApp add constraint FK_MoveInTar foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table MoveInApp add constraint FK_PassMoveInApp foreign key (mID)
+      references Manager (mID);
+
+alter table MoveOutApp add constraint FK_ApplyMoveOut foreign key (sID)
+      references Student (sID);
+
+alter table MoveOutApp add constraint FK_MoveOutTar foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table MoveOutApp add constraint FK_PassMoveOutApp foreign key (mID)
+      references Manager (mID);
+
+alter table Room add constraint FK_Cost foreign key (rCapacity)
+      references RoomPrice (rCapacity);
+
+alter table Room add constraint FK_Inside foreign key (bID)
+      references Buliding (bID);
+
+alter table RoomPayment add constraint FK_PayRoom foreign key (sID)
+      references Student (sID);
+
+alter table RoomPayment add constraint FK_RoomPayApplyTo foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table RoomPayment add constraint FK_RoomPayReference foreign key (rCapacity)
+      references RoomPrice (rCapacity);
+
+alter table Student add constraint FK_Belong foreign key (dID, majID, grade, class)
+      references Class (dID, majID, grade, class);
+
+alter table Student add constraint FK_LiveIn foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table WaterPayment add constraint FK_PayWater foreign key (sID)
+      references Student (sID);
+
+alter table WaterPayment add constraint FK_WaterPayApplyTo foreign key (bID, rID)
+      references Room (bID, rID);
+
+alter table WaterPayment add constraint FK_WaterPayReference foreign key (grade)
+      references WaterPrice (grade);
+
+alter table degree add constraint FK_AvailableRoomType1 foreign key (roomTpye1)
+      references RoomPrice (rCapacity);
+
+alter table degree add constraint FK_AvailableRoomType2 foreign key (roomTpye3)
+      references RoomPrice (rCapacity);
+
+alter table degree add constraint FK_AvailableRoomType3 foreign key (roomTpye2)
+      references RoomPrice (rCapacity);

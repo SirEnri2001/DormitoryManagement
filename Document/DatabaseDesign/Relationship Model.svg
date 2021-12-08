@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="385mm" xmlns="http://www.w3.org/2000/svg" height="310mm" version="1.1" viewBox="0 0 1458 1175" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <polyline fill="none" points="1237,335 1144,335" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1144,335 1158,332 1158,338" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1424,343 1424,1069 1220,1069" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1220,1069 1233,1066 1233,1072" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="882,412 882,298 1237,298" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1237,298 1223,301 1223,295" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="902,702 902,581" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="902,581 905,594 899,594" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1044,747 1263,747 1263,343" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1263,343 1266,357 1260,357" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1044,811 1108,811" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1108,811 1094,814 1094,808" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="804,828 804,581" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="804,581 807,594 801,594" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="890,909 1108,909" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1108,909 1095,912 1095,906" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="890,867 1316,867 1316,343" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1316,343 1319,357 1313,357" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="706,956 706,581" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="706,581 709,594 703,594" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="734,1018 1371,1018 1371,343" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1371,343 1374,357 1368,357" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="734,1072 1107,1072" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1107,1072 1094,1075 1094,1069" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="671,357 757,357 757,412" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="757,412 754,399 760,399" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="78,130 78,273 77,273 77,469" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="77,469 74,456 80,456" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="143,93 851,93 851,412" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="851,412 848,399 854,399" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="143,73 1346,73 1346,156" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1346,156 1343,143 1349,143" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="170,173 99,173 99,469" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="99,469 96,456 102,456" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="311,187 819,187 819,412" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="819,412 816,399 822,399" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1237,171 856,171" stroke="#00aaaa" stroke-width="1"/>
+   <polyline fill="none" points="845,171 311,171" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M856,171 A5,5 0 0,0 851,166" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <line x1="851" x2="851" y1="166" y2="166" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M851,166 A5,5 0 0,0 845,171" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1237,171 1223,174 1223,168" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="346,318 127,318 127,469" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="127,469 124,456 130,456" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1237,246 856,246" stroke="#00aaaa" stroke-width="1"/>
+   <polyline fill="none" points="845,246 824,246" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M856,246 A5,5 0 0,0 851,241" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <line x1="851" x2="851" y1="241" y2="241" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M851,241 A5,5 0 0,0 845,246" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <polyline fill="none" points="813,246 487,246" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M824,246 A5,5 0 0,0 819,241" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <line x1="819" x2="819" y1="241" y2="241" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M819,241 A5,5 0 0,0 813,246" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1237,246 1223,249 1223,243" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="1237,270 856,270" stroke="#00aaaa" stroke-width="1"/>
+   <polyline fill="none" points="845,270 824,270" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M856,270 A5,5 0 0,0 851,265" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <line x1="851" x2="851" y1="265" y2="265" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M851,265 A5,5 0 0,0 845,270" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <polyline fill="none" points="813,270 487,270" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M824,270 A5,5 0 0,0 819,265" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <line x1="819" x2="819" y1="265" y2="265" stroke="#00aaaa" stroke-width="1"/>
+   <path d="M819,265 A5,5 0 0,0 813,270" fill="none" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1237,270 1223,273 1223,267" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="487,286 788,286 788,412" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="788,412 785,399 791,399" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="512,404 145,404 145,469" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="145,469 142,456 148,456" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="233,677 233,731" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="233,731 230,717 236,717" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="203,597 203,552" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="203,552 206,566 200,566" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="698,511 235,511 235,597" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="235,597 232,584 238,584" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="233,787 233,818 233,818 233,837" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="233,837 230,824 236,824" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="198,917 198,1168 1182,1168 1182,1108" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1182,1108 1185,1121 1179,1121" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="233,917 233,1133 1148,1133 1148,1108" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1148,1108 1151,1121 1145,1121" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <polyline fill="none" points="217,917 217,1151 1164,1151 1164,1108" stroke="#00aaaa" stroke-width="1"/>
+   <polygon fill="#00aaaa" points="1164,1108 1167,1121 1161,1121" stroke="#00aaaa" stroke-width="1" stroke-linejoin="miter"/>
+   <rect x="698" y="412" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="698" y="412" fill="url(#Gradient1)" width="212" height="169" stroke="#00aaaa" stroke-width="1"/>
+   <text x="804" y="421" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Student</text>
+   <line x1="698" x2="910" y1="427" y2="427" stroke="#00aaaa" stroke-width="1"/>
+   <text x="703" y="433" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">sID</text>
+   <text x="703" y="444" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sName</text>
+   <text x="703" y="455" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sPhone</text>
+   <text x="703" y="466" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">password</text>
+   <text x="703" y="477" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">dID</text>
+   <text x="703" y="488" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">majID</text>
+   <text x="703" y="499" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">grade</text>
+   <text x="703" y="510" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">class</text>
+   <text x="703" y="521" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="703" y="532" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="751" y="433" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="751" y="444" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(32)</text>
+   <text x="751" y="455" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="751" y="466" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">varchar(32)</text>
+   <text x="751" y="477" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="751" y="488" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="751" y="499" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="751" y="510" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="751" y="521" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="751" y="532" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="814" y="433" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="814" y="477" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="814" y="488" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="814" y="499" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="814" y="510" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="814" y="521" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="814" y="532" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <rect x="46" y="469" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="46" y="469" fill="url(#Gradient2)" width="165" height="83" stroke="#00aaaa" stroke-width="1"/>
+   <text x="128" y="478" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Manager</text>
+   <line x1="46" x2="211" y1="484" y2="484" stroke="#00aaaa" stroke-width="1"/>
+   <text x="51" y="490" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">mID</text>
+   <text x="51" y="501" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mName</text>
+   <text x="51" y="512" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mPhone</text>
+   <text x="51" y="523" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">password</text>
+   <text x="99" y="490" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="99" y="501" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(32)</text>
+   <text x="99" y="512" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="99" y="523" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">varchar(32)</text>
+   <text x="162" y="490" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1237" y="156" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1237" y="156" fill="url(#Gradient3)" width="219" height="187" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1346" y="165" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Room</text>
+   <line x1="1237" x2="1456" y1="171" y2="171" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1241" y="177" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">bID</text>
+   <text x="1241" y="188" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">rID</text>
+   <text x="1241" y="199" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">elecUsage</text>
+   <text x="1241" y="210" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">elecBalance</text>
+   <text x="1241" y="221" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">elecAvailable</text>
+   <text x="1241" y="232" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">waterUsage</text>
+   <text x="1241" y="243" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">waterBalance</text>
+   <text x="1241" y="254" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">waterAvailable</text>
+   <text x="1241" y="265" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rCapacity</text>
+   <text x="1241" y="276" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rAvaliable</text>
+   <text x="1241" y="287" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">description</text>
+   <text x="1319" y="177" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(4)</text>
+   <text x="1319" y="188" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(4)</text>
+   <text x="1319" y="199" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1319" y="210" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1319" y="221" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="1319" y="232" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1319" y="243" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1319" y="254" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="1319" y="265" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="1319" y="276" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="1319" y="287" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">varchar(128)</text>
+   <text x="1387" y="177" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk,fk1&gt;</text>
+   <text x="1387" y="188" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="1387" y="265" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <rect x="1004" y="327" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1004" y="327" fill="url(#Gradient4)" width="140" height="56" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1074" y="336" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Buliding</text>
+   <line x1="1004" x2="1144" y1="342" y2="342" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1008" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">bID</text>
+   <text x="1008" y="359" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bCapacity</text>
+   <text x="1008" y="370" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bAvaliable</text>
+   <text x="1066" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(4)</text>
+   <text x="1066" y="359" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="1066" y="370" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="1109" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1108" y="777" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1108" y="777" fill="url(#Gradient5)" width="101" height="68" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1158" y="786" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">ElecPrice</text>
+   <line x1="1108" x2="1209" y1="792" y2="792" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1112" y="798" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">grade</text>
+   <text x="1112" y="809" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">min</text>
+   <text x="1112" y="820" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">max</text>
+   <text x="1112" y="831" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">price</text>
+   <text x="1145" y="798" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="1145" y="809" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1145" y="820" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1145" y="831" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1178" y="798" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1108" y="875" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1108" y="875" fill="url(#Gradient6)" width="101" height="68" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1158" y="884" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">WaterPrice</text>
+   <line x1="1108" x2="1209" y1="890" y2="890" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1113" y="896" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">grade</text>
+   <text x="1113" y="907" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">min</text>
+   <text x="1113" y="918" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">max</text>
+   <text x="1113" y="929" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">price</text>
+   <text x="1146" y="896" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="1146" y="907" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1146" y="918" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1146" y="929" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="1179" y="896" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="1107" y="1054" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient7" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="1107" y="1054" fill="url(#Gradient7)" width="113" height="54" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1163" y="1063" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">RoomPrice</text>
+   <line x1="1107" x2="1220" y1="1069" y2="1069" stroke="#00aaaa" stroke-width="1"/>
+   <text x="1112" y="1075" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">rCapacity</text>
+   <text x="1112" y="1086" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">price</text>
+   <text x="1165" y="1075" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="1165" y="1086" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="1188" y="1075" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="900" y="702" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient8" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="900" y="702" fill="url(#Gradient8)" width="144" height="155" stroke="#00aaaa" stroke-width="1"/>
+   <text x="972" y="711" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">ElecPayment</text>
+   <line x1="900" x2="1044" y1="717" y2="717" stroke="#00aaaa" stroke-width="1"/>
+   <text x="904" y="723" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">epID</text>
+   <text x="904" y="734" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="904" y="745" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="904" y="756" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="904" y="767" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">usage</text>
+   <text x="904" y="778" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">grade</text>
+   <text x="904" y="789" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">cost</text>
+   <text x="904" y="800" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">balance</text>
+   <text x="904" y="811" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">setDate</text>
+   <text x="904" y="822" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">payment</text>
+   <text x="904" y="833" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">payDate</text>
+   <text x="947" y="723" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="947" y="734" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="947" y="745" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="947" y="756" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="947" y="767" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="947" y="778" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="947" y="789" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="947" y="800" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="947" y="811" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="947" y="822" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="947" y="833" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="995" y="723" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="995" y="734" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="995" y="745" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="995" y="756" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="995" y="778" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <rect x="750" y="828" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient9" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="750" y="828" fill="url(#Gradient9)" width="140" height="152" stroke="#00aaaa" stroke-width="1"/>
+   <text x="820" y="837" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">WaterPayment</text>
+   <line x1="750" x2="890" y1="843" y2="843" stroke="#00aaaa" stroke-width="1"/>
+   <text x="755" y="849" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">wpID</text>
+   <text x="755" y="860" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="755" y="871" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="755" y="882" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="755" y="893" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">usage</text>
+   <text x="755" y="904" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">grade</text>
+   <text x="755" y="915" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">cost</text>
+   <text x="755" y="926" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">balance</text>
+   <text x="755" y="937" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">setDate</text>
+   <text x="755" y="948" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">payment</text>
+   <text x="755" y="959" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">payDate</text>
+   <text x="798" y="849" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="798" y="860" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="798" y="871" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="798" y="882" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="798" y="893" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="798" y="904" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="798" y="915" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="798" y="926" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="798" y="937" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="798" y="948" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="798" y="959" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="846" y="849" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="846" y="860" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="846" y="871" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="846" y="882" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="846" y="904" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <rect x="573" y="956" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient10" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="573" y="956" fill="url(#Gradient10)" width="161" height="124" stroke="#00aaaa" stroke-width="1"/>
+   <text x="653" y="965" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">RoomPayment</text>
+   <line x1="573" x2="734" y1="971" y2="971" stroke="#00aaaa" stroke-width="1"/>
+   <text x="578" y="977" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">rpID</text>
+   <text x="578" y="988" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="578" y="999" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="578" y="1010" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="578" y="1021" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">setdate</text>
+   <text x="578" y="1032" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rCapacity</text>
+   <text x="578" y="1043" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">amount</text>
+   <text x="578" y="1054" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">payDate</text>
+   <text x="631" y="977" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="631" y="988" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="631" y="999" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="631" y="1010" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="631" y="1021" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="631" y="1032" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="631" y="1043" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">float</text>
+   <text x="631" y="1054" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="679" y="977" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="679" y="988" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="679" y="999" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="679" y="1010" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="679" y="1032" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <rect x="512" y="327" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient11" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="512" y="327" fill="url(#Gradient11)" width="159" height="155" stroke="#00aaaa" stroke-width="1"/>
+   <text x="591" y="336" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">LeaveApp</text>
+   <line x1="512" x2="671" y1="342" y2="342" stroke="#00aaaa" stroke-width="1"/>
+   <text x="517" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">leaID</text>
+   <text x="517" y="359" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="517" y="370" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">appDate</text>
+   <text x="517" y="381" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">leaDate</text>
+   <text x="517" y="392" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">expRetDate</text>
+   <text x="517" y="403" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">reason</text>
+   <text x="517" y="414" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mID</text>
+   <text x="517" y="425" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">pass</text>
+   <text x="517" y="436" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">passDate</text>
+   <text x="517" y="447" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">actRetDate</text>
+   <text x="575" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="575" y="359" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="575" y="370" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="575" y="381" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="575" y="392" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="575" y="403" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(64)</text>
+   <text x="575" y="414" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="575" y="425" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="575" y="436" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="575" y="447" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="623" y="348" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="623" y="359" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="623" y="414" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <rect x="2" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient12" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="2" y="2" fill="url(#Gradient12)" width="141" height="128" stroke="#00aaaa" stroke-width="1"/>
+   <text x="72" y="11" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">MoveInApp</text>
+   <line x1="2" x2="143" y1="17" y2="17" stroke="#00aaaa" stroke-width="1"/>
+   <text x="7" y="23" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">miID</text>
+   <text x="7" y="34" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="7" y="45" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="7" y="56" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="7" y="67" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">appDate</text>
+   <text x="7" y="78" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">reason</text>
+   <text x="7" y="89" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mID</text>
+   <text x="7" y="100" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">pass</text>
+   <text x="7" y="111" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">passDate</text>
+   <text x="55" y="23" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="55" y="34" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="55" y="45" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="55" y="56" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="55" y="67" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="55" y="78" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(64)</text>
+   <text x="55" y="89" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="55" y="100" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="55" y="111" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="103" y="23" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="103" y="34" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="103" y="45" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="103" y="56" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="103" y="89" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <rect x="170" y="109" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient13" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="170" y="109" fill="url(#Gradient13)" width="141" height="128" stroke="#00aaaa" stroke-width="1"/>
+   <text x="240" y="118" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">MoveOutApp</text>
+   <line x1="170" x2="311" y1="124" y2="124" stroke="#00aaaa" stroke-width="1"/>
+   <text x="174" y="130" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">moID</text>
+   <text x="174" y="141" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="174" y="152" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bID</text>
+   <text x="174" y="163" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rID</text>
+   <text x="174" y="174" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">appDate</text>
+   <text x="174" y="185" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">reason</text>
+   <text x="174" y="196" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mID</text>
+   <text x="174" y="207" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">pass</text>
+   <text x="174" y="218" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">passDate</text>
+   <text x="222" y="130" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="222" y="141" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="222" y="152" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="222" y="163" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="222" y="174" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="222" y="185" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(64)</text>
+   <text x="222" y="196" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="222" y="207" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="222" y="218" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="270" y="130" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="270" y="141" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="270" y="152" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="270" y="163" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="270" y="196" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <rect x="346" y="207" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient14" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="346" y="207" fill="url(#Gradient14)" width="141" height="151" stroke="#00aaaa" stroke-width="1"/>
+   <text x="416" y="216" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">ChangeRoomApp</text>
+   <line x1="346" x2="487" y1="222" y2="222" stroke="#00aaaa" stroke-width="1"/>
+   <text x="351" y="228" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">crID</text>
+   <text x="351" y="239" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">sID</text>
+   <text x="351" y="250" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bIDout</text>
+   <text x="351" y="261" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rIDout</text>
+   <text x="351" y="272" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bIDtar</text>
+   <text x="351" y="283" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">rIDtar</text>
+   <text x="351" y="294" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">appDate</text>
+   <text x="351" y="305" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">reason</text>
+   <text x="351" y="316" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mID</text>
+   <text x="351" y="327" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">pass</text>
+   <text x="351" y="338" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">passDate</text>
+   <text x="399" y="228" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="399" y="239" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="399" y="250" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="399" y="261" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="399" y="272" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="399" y="283" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(4)</text>
+   <text x="399" y="294" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="399" y="305" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(64)</text>
+   <text x="399" y="316" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="399" y="327" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">bool</text>
+   <text x="399" y="338" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">date</text>
+   <text x="447" y="228" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="447" y="239" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk4&gt;</text>
+   <text x="447" y="250" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="447" y="261" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+   <text x="447" y="272" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="447" y="283" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="447" y="316" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <rect x="157" y="731" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient15" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="157" y="731" fill="url(#Gradient15)" width="152" height="56" stroke="#00aaaa" stroke-width="1"/>
+   <text x="233" y="740" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Major</text>
+   <line x1="157" x2="309" y1="746" y2="746" stroke="#00aaaa" stroke-width="1"/>
+   <text x="162" y="752" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">dID</text>
+   <text x="162" y="763" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">majID</text>
+   <text x="162" y="774" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">title</text>
+   <text x="195" y="752" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="195" y="763" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="195" y="774" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">varchar(32)</text>
+   <text x="258" y="752" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk,fk&gt;</text>
+   <text x="258" y="763" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="165" y="597" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient16" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="165" y="597" fill="url(#Gradient16)" width="140" height="80" stroke="#00aaaa" stroke-width="1"/>
+   <text x="235" y="606" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">Class</text>
+   <line x1="165" x2="305" y1="612" y2="612" stroke="#00aaaa" stroke-width="1"/>
+   <text x="169" y="618" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">dID</text>
+   <text x="169" y="629" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">majID</text>
+   <text x="169" y="640" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">grade</text>
+   <text x="169" y="651" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">class</text>
+   <text x="169" y="662" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">mID</text>
+   <text x="202" y="618" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="202" y="629" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">char(16)</text>
+   <text x="202" y="640" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="202" y="651" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="202" y="662" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(16)</text>
+   <text x="250" y="618" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk,fk1&gt;</text>
+   <text x="250" y="629" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk,fk1&gt;</text>
+   <text x="250" y="640" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="250" y="651" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="250" y="662" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <rect x="160" y="837" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient17" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#b0ffff"/>
+      </linearGradient>
+   </defs>
+   <rect x="160" y="837" fill="url(#Gradient17)" width="146" height="80" stroke="#00aaaa" stroke-width="1"/>
+   <text x="233" y="846" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-anchor="middle">degree</text>
+   <line x1="160" x2="306" y1="852" y2="852" stroke="#00aaaa" stroke-width="1"/>
+   <text x="164" y="858" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">dID</text>
+   <text x="164" y="869" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">dName</text>
+   <text x="164" y="880" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">roomTpye1</text>
+   <text x="164" y="891" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">roomTpye2</text>
+   <text x="164" y="902" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">roomTpye3</text>
+   <text x="217" y="858" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">int</text>
+   <text x="217" y="869" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">char(32)</text>
+   <text x="217" y="880" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="217" y="891" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="217" y="902" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">int</text>
+   <text x="265" y="858" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="265" y="880" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk2&gt;</text>
+   <text x="265" y="891" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk1&gt;</text>
+   <text x="265" y="902" fill="#000000" font-size="12" font-family="'Arial Unicode MS','新宋体'">&lt;fk3&gt;</text>
+</svg>

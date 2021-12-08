@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(160,191,124);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.student.RoomPay">
+    <children>
+        <Pane id="top" prefHeight="40.0" prefWidth="600.0">
+            <children>
+                <ImageView id="topImg" fitHeight="40.0" fitWidth="50.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/student_male.png" />
+                    </image>
+                </ImageView>
+                <Text fill="WHITE" fontSmoothingType="LCD" layoutX="33.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="房费账单信息" textAlignment="CENTER" wrappingWidth="190.99999582767487">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Text>
+                <Button fx:id="refresh" layoutX="502.0" layoutY="5.0" mnemonicParsing="false" onAction="#roomRefresh" prefHeight="30.0" prefWidth="80.0" text="刷新" />
+            </children>
+        </Pane>
+        <Label layoutX="218.0" layoutY="67.0" text="注意：住宿费一学年一结" textFill="#dd0d0d" />
+      <Pane layoutX="118.0" layoutY="87.0" prefHeight="235.0" prefWidth="365.0" style="-fx-background-color: rgb(178,200,187);">
+         <children>
+              <GridPane layoutX="60.0" layoutY="32.0" prefHeight="172.0" prefWidth="246.0" style="-fx-background-color: rgb(178,200,187);">
+                  <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="246.0" minWidth="10.0" prefWidth="131.0" />
+                  </columnConstraints>
+                  <rowConstraints>
+                      <RowConstraints maxHeight="70.0" minHeight="10.0" prefHeight="59.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="102.0" minHeight="10.0" prefHeight="62.0" vgrow="SOMETIMES" />
+                  </rowConstraints>
+                  <children>
+                        <Button fx:id="pay" alignment="CENTER" mnemonicParsing="false" onAction="#RoomP" prefHeight="54.0" prefWidth="246.0" text="缴费" GridPane.rowIndex="1" />
+                  <GridPane>
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                            <Label alignment="CENTER" prefHeight="75.0" prefWidth="196.0" text="您已欠费：" textFill="WHITE">
+                                <font>
+                                    <Font size="24.0" />
+                                </font>
+                            </Label>
+                        <Text fx:id="amount" fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </GridPane>
+                  </children>
+              </GridPane>
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

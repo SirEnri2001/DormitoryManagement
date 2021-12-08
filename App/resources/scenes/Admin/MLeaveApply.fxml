@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(160,191,124);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.admin.MLeaveApply">
+    <children>
+        <Pane id="top" prefHeight="40.0" prefWidth="804.0">
+            <children>
+                <ImageView id="topImg" fitHeight="40.0" fitWidth="50.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/admin.png" />
+                    </image>
+                </ImageView>
+                <Text fill="WHITE" fontSmoothingType="LCD" layoutX="40.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学生请假申请管理" textAlignment="CENTER" wrappingWidth="265.0">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Text>
+                <Button layoutX="732.0" layoutY="6.0" mnemonicParsing="false" onAction="#selectLeaveApply" text="刷新" />
+            </children>
+        </Pane>
+        <Pane layoutY="49.0" prefHeight="482.0" prefWidth="804.0" style="-fx-background-color: #a4cab6;">
+            <children>
+                <ScrollPane layoutY="-7.0" prefHeight="489.0" prefWidth="804.0">
+                    <content>
+                        <TableView fx:id="sTable" prefHeight="583.0" prefWidth="789.0">
+                            <columns>
+                                <TableColumn fx:id="id" prefWidth="102.0" text="学号" />
+                                <TableColumn fx:id="Appid" prefWidth="108.0" text="申请号" />
+                                <TableColumn minWidth="100.0" prefWidth="257.0" text="日期">
+                                    <columns>
+                                        <TableColumn fx:id="PreDate" prefWidth="132.0" text="离开日期" />
+                                        <TableColumn fx:id="ProDate" minWidth="131.0" prefWidth="135.0" text="预计返回日期" />
+                                    </columns>
+                                </TableColumn>
+                                <TableColumn fx:id="Reason" prefWidth="140.0" text="原因" />
+                                <TableColumn prefWidth="200.0" text="管理">
+                                    <columns>
+                                        <TableColumn fx:id="Yes" prefWidth="89.0" text="同意" />
+                                        <TableColumn fx:id="No" minWidth="88.0" prefWidth="91.0" text="拒绝" />
+                                    </columns>
+                                </TableColumn>
+                            </columns>
+                        </TableView>
+                    </content>
+                </ScrollPane>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="cpw" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #83cbac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.admin.QueryRoom">
+    <children>
+        <AnchorPane maxHeight="10000.0" maxWidth="10000.0" minHeight="0.0" minWidth="0.0" prefHeight="463.0" prefWidth="600.0">
+            <children>
+                <TableView fx:id="sTable" layoutY="55.0" prefHeight="408.0" prefWidth="600.0">
+                    <columns>
+                  <TableColumn fx:id="Bid" minWidth="0.0" prefWidth="63.0" text="楼号" />
+                        <TableColumn fx:id="Rid" minWidth="0.0" prefWidth="76.0" text="房间号" />
+                        <TableColumn fx:id="Capacity" prefWidth="82.0" text="容纳量" />
+                        <TableColumn fx:id="Available" prefWidth="82.0" text="空闲床位" />
+                  <TableColumn prefWidth="162.0" text="水费">
+                     <columns>
+                        <TableColumn fx:id="waterusage" prefWidth="75.0" text="用水量" />
+                        <TableColumn fx:id="waterbalance" prefWidth="75.0" text="剩余水量" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="75.0" text="电费">
+                     <columns>
+                        <TableColumn fx:id="elecusage" prefWidth="75.0" text="用电量" />
+                        <TableColumn fx:id="elecbalance" prefWidth="75.0" text="剩余电量" />
+                     </columns>
+                  </TableColumn>
+                    </columns>
+                </TableView>
+                <ImageView fitHeight="60.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/admin.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="50.0" layoutY="3.0" style="-fx-font-weight: 600;" text="房间信息" textFill="WHITE">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+                <Button layoutX="496.0" layoutY="14.0" mnemonicParsing="false" onAction="#selectRoom" text="查询结果" />
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

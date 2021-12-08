@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="root" maxHeight="400.0" maxWidth="600.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: rgb(160,191,124);" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.student.MoveInApply">
+    <children>
+        <Pane id="top" prefHeight="40.0" prefWidth="600.0">
+            <children>
+                <ImageView id="topImg" fitHeight="40.0" fitWidth="50.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/student_male.png" />
+                    </image>
+                </ImageView>
+                <Text fill="WHITE" fontSmoothingType="LCD" layoutX="40.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="学生入住申请" textAlignment="CENTER" wrappingWidth="157.99999582767487">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Text>
+            <Button layoutX="503.0" layoutY="6.0" mnemonicParsing="false" onAction="#selectRoom" prefHeight="30.0" prefWidth="63.0" text="刷新" />
+            </children>
+        </Pane>
+        <Pane layoutY="49.0" prefHeight="351.0" prefWidth="600.0" style="-fx-background-color: #a4cab6;">
+            <children>
+                  <TableView fx:id="sTable" layoutX="61.0" prefHeight="170.0" prefWidth="509.0">
+                      <columns>
+                          <TableColumn fx:id="buildingColumn" prefWidth="165.0" text="可入住楼号" />
+                          <TableColumn fx:id="roomColumn" prefWidth="188.0" text="可入住寝室号" />
+                          <TableColumn fx:id="availableColumn" prefWidth="155.0" text="空余床位" />
+                      </columns>
+                  </TableView>
+                <GridPane layoutX="47.0" layoutY="173.0" prefHeight="110.0" prefWidth="521.0">
+                    <children>
+                        <Label text="意愿寝室：" GridPane.rowIndex="1" />
+                        <Label text="意愿楼号：" />
+                        <TextField fx:id="newBID" GridPane.columnIndex="1" />
+                        <TextField fx:id="newRID" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Label prefHeight="30.0" prefWidth="90.0" text="申请原因：" GridPane.rowIndex="2" />
+                        <TextArea fx:id="reason" prefHeight="26.0" prefWidth="431.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                    </children>
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="236.0" minWidth="10.0" prefWidth="31.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="431.0" minWidth="10.0" prefWidth="424.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="48.0" minHeight="10.0" prefHeight="47.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="26.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                </GridPane>
+                  <Button fx:id="moveINapplyButton" layoutX="212.0" layoutY="298.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#moveInApply" prefHeight="33.0" prefWidth="197.0" text="申请" />
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

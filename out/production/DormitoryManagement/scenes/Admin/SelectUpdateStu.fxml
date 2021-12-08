@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="cpw" prefHeight="464.0" prefWidth="786.0" style="-fx-background-color: #83cbac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.admin.SelectUpdateStuC">
+    <children>
+        <Button id="room" fx:id="abutton" layoutX="609.0" layoutY="118.0" onAction="#selectByBuilding" prefHeight="28.0" prefWidth="83.0" style="-fx-background-color: #5dbe8a;" text="按楼号查询" textFill="WHITE">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+        <Text layoutX="555.0" layoutY="96.0" strokeType="OUTSIDE" strokeWidth="0.0" text="楼号：">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="540.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="宿舍号：" wrappingWidth="57.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Text layoutX="555.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="班级：" wrappingWidth="42.0">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </Text>
+        <Button id="room" fx:id="bbotton" layoutX="608.0" layoutY="198.0" onAction="#selectByRoom" prefHeight="28.0" style="-fx-background-color: #5dbe8a;" text="按宿舍号查询" textFill="WHITE">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+        <Button id="room" fx:id="cbutton" layoutX="608.0" layoutY="280.0" onAction="#selectByClass" style="-fx-background-color: #5dbe8a;" text="按班级查询" textFill="WHITE">
+            <font>
+                <Font size="13.0" />
+            </font>
+        </Button>
+      <TextField fx:id="sbyBuilding" layoutX="600.0" layoutY="80.0" prefHeight="9.0" prefWidth="154.0" />
+      <TextField fx:id="sbyRoom" layoutX="600.0" layoutY="155.0" prefHeight="9.0" prefWidth="154.0" />
+      <TextField fx:id="sbyClass" layoutX="600.0" layoutY="235.0" prefHeight="9.0" prefWidth="154.0" />
+    <AnchorPane maxHeight="10000.0" maxWidth="10000.0" minHeight="0.0" minWidth="0.0" prefHeight="463.0" prefWidth="529.0">
+         <children>
+              <TableView fx:id="sTable" prefHeight="463.0" prefWidth="528.0">
+                  <columns>
+                      <TableColumn fx:id="id" minWidth="0.0" prefWidth="108.0" text="学号" />
+                  <TableColumn fx:id="name" prefWidth="89.0" text="姓名" />
+                  <TableColumn fx:id="sex" prefWidth="95.0" text="性别" />
+                        <TableColumn fx:id="sClass" prefWidth="99.0" text="班级" />
+                      <TableColumn minWidth="0.0" prefWidth="198.0" text="住宿">
+                          <columns>
+                              <TableColumn fx:id="sBuilding" prefWidth="101.0" text="楼号" />
+                              <TableColumn fx:id="sRoom" prefWidth="120.0" text="宿舍号" />
+                          </columns>
+                      </TableColumn>
+                  </columns>
+              </TableView>
+         </children>
+      </AnchorPane>
+    </children>
+</AnchorPane>

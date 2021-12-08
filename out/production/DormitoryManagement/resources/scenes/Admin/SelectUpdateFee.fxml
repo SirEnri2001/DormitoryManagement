@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane id="cpw" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #83cbac;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="src.controller.admin.SelectUpdateFee">
+    <children>
+        <AnchorPane maxHeight="10000.0" maxWidth="10000.0" minHeight="0.0" minWidth="0.0" prefHeight="463.0" prefWidth="600.0">
+            <children>
+                <ImageView fitHeight="60.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@../../images/admin.png" />
+                    </image>
+                </ImageView>
+                <Label layoutX="50.0" layoutY="3.0" text="账单信息" textFill="WHITE">
+                    <font>
+                        <Font size="30.0" />
+                    </font>
+                </Label>
+            <Label layoutX="50.0" layoutY="50.0" text="学号：" textFill="WHITE">
+               <font>
+                  <Font size="23.0" />
+               </font>
+            </Label>
+            <TextField fx:id="ID" layoutX="180.0" layoutY="50.0" />
+            <Button layoutX="432.0" layoutY="44.0" mnemonicParsing="false" onAction="#selectFee" style="-fx-background-color: #207f4c;" text="查询" textFill="WHITE">
+               <font>
+                  <Font size="21.0" />
+               </font>
+            </Button>
+            <TableView fx:id="sTable" layoutY="95.0" prefHeight="123.0" prefWidth="600.0">
+              <columns>
+                <TableColumn prefWidth="300.0" text="水费">
+                     <columns>
+                        <TableColumn fx:id="WaterUsage" prefWidth="146.0" text="用水量" />
+                        <TableColumn fx:id="WaterBalance" prefWidth="148.0" text="剩余水量" />
+                     </columns>
+                  </TableColumn>
+                  <TableColumn prefWidth="300.0" text="电费">
+                     <columns>
+                        <TableColumn fx:id="ElecUsage" prefWidth="150.0" text="用电量" />
+                        <TableColumn fx:id="ElecBalance" prefWidth="150.0" text="剩余电量" />
+                     </columns>
+                  </TableColumn>
+              </columns>
+            </TableView>
+            <SplitPane dividerPositions="0.5" layoutY="232.0" prefHeight="231.0" prefWidth="600.0" style="-fx-background-color: #b9dec9;">
+              <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="229.0" prefWidth="276.0">
+                     <children>
+                        <Label layoutX="98.0" layoutY="14.0" text="水费缴费" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="Water" layoutX="45.0" layoutY="78.0" />
+                        <Button layoutX="111.0" layoutY="151.0" mnemonicParsing="false" onAction="#PayWater" style="-fx-background-color: #207f4c;" text="确认" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                     <children>
+                        <Label layoutX="102.0" layoutY="14.0" text="电费缴费" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="Elec" layoutX="49.0" layoutY="77.0" />
+                        <Button layoutX="115.0" layoutY="149.0" mnemonicParsing="false" onAction="#PayElec" style="-fx-background-color: #207f4c;" text="确认" textFill="WHITE">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </AnchorPane>
+              </items>
+            </SplitPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>
